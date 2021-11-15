@@ -13,6 +13,7 @@ span {
   background-color: #ed4858;
   color: white;
   border-radius: 50%;
+  margin-bottom: 30px;
 }
 .heading-underline {
   border-bottom: 4px solid #ed4858;
@@ -25,7 +26,7 @@ span {
   box-sizing: border-box;
   padding: 20px;
   border: 2px solid #ed4858;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   border-radius: 20px;
 }
 
@@ -90,10 +91,17 @@ span {
 }
 .timeline-width {
   width: 75%;
+  margin-bottom: 80px;
 }
 
 @media only screen and (max-width: 800px) {
   .timeline-width {
     width: 100%;
   }
+}
+
+.msg-box {
+  box-sizing: border-box;
+  padding: 20px;
+  border: 2px solid #ed4858;
 }
